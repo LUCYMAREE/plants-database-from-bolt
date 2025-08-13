@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Essential meta tags for responsive design and character encoding -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Explore New Zealand's native flora and fauna with Nga Tipu Aotearoa Nature - an educational resource for learning about native plants, animals, and ecosystems.">
+    
+    <!-- Page title -->
+    <title>Nga Tipu Aotearoa Nature - Educational Plant Database Website</title>
+    
+    <!-- Google Fonts: Lora font family with multiple weights -->
+    <link href="https://fonts.googleapis.com/css2?family=Lora:wght@400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Link to our custom stylesheet -->
+    <link rel="stylesheet" href="stylesheet.css">
+</head>
+<body>
+    <!-- Main site header with navigation -->
+    <header class="site-header">
+        <div class="header-container">
+            <!-- Site logo/title -->
+            <h1 class="site-logo">Nga Tipu Aotearoa Nature</h1>
+            
+            <!-- Main navigation menu -->
+            <nav class="main-nav" role="navigation" aria-label="Main navigation">
+                <ul class="nav-menu">
+                    <li><a href="#home" class="nav-link active">Home</a></li>
+                    <li><a href="#gallery" class="nav-link">Gallery</a></li>
+                    <li><a href="#about" class="nav-link">About</a></li>
+                    <li><a href="#news" class="nav-link">News</a></li>
+                    <li><a href="#contact" class="nav-link">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Main content area -->
+    <main class="main-content" id="home">
+        <!-- Hero section with introductory content -->
+        <section class="hero-section">
+            <div class="hero-container">
+                <h2 class="hero-title">Discover New Zealand's Unique Biodiversity</h2>
+                <p class="hero-description">
+                    Explore the incredible native flora and fauna that make Aotearoa New Zealand 
+                    one of the world's most unique ecosystems. From ancient forests to alpine meadows, 
+                    discover the plants and animals that call this land home.
+                </p>
+            </div>
+        </section>
+
+        <!-- Species showcase section -->
+        <section class="species-section" id="gallery">
+            <div class="section-container">
+                <h2 class="section-title">Featured Native Species</h2>
+                <p class="section-description">
+                    Learn about New Zealand's endemic plants and animals, many found nowhere else on Earth.
+                </p>
+
+                <!-- Species cards grid -->
+                <div class="species-grid">
+                    <!-- Native Plants -->
+                    <article class="species-card">
+                        <img src="https://picsum.photos/400/300?random=1" alt="Pohutukawa tree with vibrant red flowers against coastal backdrop" class="card-image">
+                        <div class="card-content">
+                            <h3 class="species-name">Pohutukawa</h3>
+                            <p class="maori-name">New Zealand Christmas Tree</p>
+                            <p class="species-description">
+                                Iconic coastal tree with vibrant crimson flowers that bloom during summer, 
+                                earning it the nickname "New Zealand Christmas Tree."
+                            </p>
+                            <button class="learn-more-btn" aria-label="Learn more about Pohutukawa">Learn More</button>
+                        </div>
+                    </article>
+
+                    <article class="species-card">
+                        <img src="https://picsum.photos/400/300?random=2" alt="Harakeke flax plant showing traditional weaving patterns" class="card-image">
+                        <div class="card-content">
+                            <h3 class="species-name">Harakeke</h3>
+                            <p class="maori-name">New Zealand Flax</p>
+                            <p class="species-description">
+                                Traditional weaving plant essential to Māori culture, with strong fibers 
+                                used for clothing, baskets, and rope for over 1000 years.
+                            </p>
+                            <button class="learn-more-btn" aria-label="Learn more about Harakeke">Learn More</button>
+                        </div>
+                    </article>
+
+                    <article class="species-card">
+                        <img src="https://picsum.photos/400/300?random=3" alt="Silver fern fronds unfurling in native forest setting" class="card-image">
+                        <div class="card-content">
+                            <h3 class="species-name">Silver Fern</h3>
+                            <p class="maori-name">Ponga</p>
+                            <p class="species-description">
+                                New Zealand's national symbol, this majestic tree fern grows up to 10 meters 
+                                tall and displays distinctive silver undersides on its fronds.
+                            </p>
+                            <button class="learn-more-btn" aria-label="Learn more about Silver Fern">Learn More</button>
+                        </div>
+                    </article>
+
+                    <article class="species-card">
+                        <img src="https://picsum.photos/400/300?random=4" alt="Kowhai tree displaying golden yellow flowers in spring" class="card-image">
+                        <div class="card-content">
+                            <h3 class="species-name">Kowhai</h3>
+                            <p class="maori-name">Golden Flower Tree</p>
+                            <p class="species-description">
+                                New Zealand's national flower, producing stunning golden-yellow blooms 
+                                that attract native birds and signal the arrival of spring.
+                            </p>
+                            <button class="learn-more-btn" aria-label="Learn more about Kowhai">Learn More</button>
+                        </div>
+                    </article>
+
+                    <article class="species-card">
+                        <img src="https://picsum.photos/400/300?random=5" alt="Cabbage Tree with distinctive palm-like leaves in natural habitat" class="card-image">
+                        <div class="card-content">
+                            <h3 class="species-name">Cabbage Tree</h3>
+                            <p class="maori-name">Tī kōuka</p>
+                            <p class="species-description">
+                                Distinctive palm-like native tree with sword-shaped leaves and fragrant 
+                                white flower clusters, an important food source for early Māori.
+                            </p>
+                            <button class="learn-more-btn" aria-label="Learn more about Cabbage Tree">Learn More</button>
+                        </div>
+                    </article>
+
+                    <article class="species-card">
+                        <img src="https://picsum.photos/400/300?random=6" alt="Kakapo, large flightless parrot in forest setting" class="card-image">
+                        <div class="card-content">
+                            <h3 class="species-name">Kakapo</h3>
+                            <p class="maori-name">Night Parrot</p>
+                            <p class="species-description">
+                                World's only flightless parrot, this nocturnal bird is critically 
+                                endangered with only around 250 individuals remaining in the wild.
+                            </p>
+                            <button class="learn-more-btn" aria-label="Learn more about Kakapo">Learn More</button>
+                        </div>
+                    </article>
+
+                    <!-- Native Animals -->
+                    <article class="species-card">
+                        <img src="https://picsum.photos/400/300?random=7" alt="Tui bird with distinctive white throat feathers on native flowers" class="card-image">
+                        <div class="card-content">
+                            <h3 class="species-name">Tui</h3>
+                            <p class="maori-name">Parson Bird</p>
+                            <p class="species-description">
+                                Distinctive native honeyeater with iridescent feathers and white throat tufts, 
+                                known for their complex songs and acrobatic feeding displays.
+                            </p>
+                            <button class="learn-more-btn" aria-label="Learn more about Tui">Learn More</button>
+                        </div>
+                    </article>
+
+                    <article class="species-card">
+                        <img src="https://picsum.photos/400/300?random=8" alt="Tuatara reptile basking on rocks in natural environment" class="card-image">
+                        <div class="card-content">
+                            <h3 class="species-name">Tuatara</h3>
+                            <p class="maori-name">Living Fossil</p>
+                            <p class="species-description">
+                                Ancient reptile species that has remained virtually unchanged for 200 
+                                million years, found only on offshore islands around New Zealand.
+                            </p>
+                            <button class="learn-more-btn" aria-label="Learn more about Tuatara">Learn More</button>
+                        </div>
+                    </article>
+
+                    <article class="species-card">
+                        <img src="https://picsum.photos/400/300?random=9" alt="Kiwi bird foraging in native forest undergrowth" class="card-image">
+                        <div class="card-content">
+                            <h3 class="species-name">Kiwi</h3>
+                            <p class="maori-name">National Bird</p>
+                            <p class="species-description">
+                                Flightless nocturnal bird and national symbol of New Zealand, with 
+                                hair-like feathers and the unique ability to smell with its long beak.
+                            </p>
+                            <button class="learn-more-btn" aria-label="Learn more about Kiwi">Learn More</button>
+                        </div>
+                    </article>
+
+                    <article class="species-card">
+                        <img src="https://picsum.photos/400/300?random=10" alt="Hector's dolphin swimming in clear coastal waters" class="card-image">
+                        <div class="card-content">
+                            <h3 class="species-name">Hector's Dolphin</h3>
+                            <p class="maori-name">Māui's Dolphin</p>
+                            <p class="species-description">
+                                World's smallest dolphin species, endemic to New Zealand waters and 
+                                critically endangered with distinctive rounded dorsal fin.
+                            </p>
+                            <button class="learn-more-btn" aria-label="Learn more about Hector's Dolphin">Learn More</button>
+                        </div>
+                    </article>
+
+                    <article class="species-card">
+                        <img src="https://picsum.photos/400/300?random=11" alt="Weta insect on native vegetation showing prehistoric appearance" class="card-image">
+                        <div class="card-content">
+                            <h3 class="species-name">Weta</h3>
+                            <p class="maori-name">Giant Cricket</p>
+                            <p class="species-description">
+                                Large prehistoric insect, some species weighing up to 100 grams, 
+                                endemic to New Zealand and crucial to native ecosystem health.
+                            </p>
+                            <button class="learn-more-btn" aria-label="Learn more about Weta">Learn More</button>
+                        </div>
+                    </article>
+
+                    <article class="species-card">
+                        <img src="https://picsum.photos/400/300?random=12" alt="Manuka tree with small white flowers and distinctive foliage" class="card-image">
+                        <div class="card-content">
+                            <h3 class="species-name">Manuka</h3>
+                            <p class="maori-name">Tea Tree</p>
+                            <p class="species-description">
+                                Small native tree famous for producing medicinal honey, with small 
+                                white flowers and aromatic leaves used traditionally for healing.
+                            </p>
+                            <button class="learn-more-btn" aria-label="Learn more about Manuka">Learn More</button>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- About section -->
+        <section class="about-section" id="about">
+            <div class="section-container">
+                <h2 class="section-title">Conservation & Protection</h2>
+                <div class="about-content">
+                    <div class="about-text">
+                        <h3>Our Mission</h3>
+                        <p>
+                            New Zealand's unique isolation has created extraordinary biodiversity, with 80% 
+                            of native plants and 90% of insects found nowhere else on Earth. Our mission 
+                            is to educate and inspire conservation efforts to protect these irreplaceable species.
+                        </p>
+                    </div>
+                    <div class="conservation-stats">
+                        <div class="stat-item">
+                            <h4>2,500+</h4>
+                            <p>Native Plant Species</p>
+                        </div>
+                        <div class="stat-item">
+                            <h4>4,000+</h4>
+                            <p>Endemic Species</p>
+                        </div>
+                        <div class="stat-item">
+                            <h4>200+</h4>
+                            <p>Conservation Projects</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Site footer -->
+    <footer class="site-footer" id="contact">
+        <div class="footer-container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3 class="footer-title">Nga Tipu Aotearoa Nature</h3>
+                    <p class="footer-description">
+                        Dedicated to preserving and sharing knowledge about New Zealand's 
+                        unique native flora and fauna for future generations.
+                    </p>
+                </div>
+                <div class="footer-section">
+                    <h4 class="footer-subtitle">Quick Links</h4>
+                    <ul class="footer-links">
+                        <li><a href="#home" class="footer-link">Home</a></li>
+                        <li><a href="#gallery" class="footer-link">Gallery</a></li>
+                        <li><a href="#about" class="footer-link">About</a></li>
+                        <li><a href="#news" class="footer-link">News</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4 class="footer-subtitle">Contact Info</h4>
+                    <p class="contact-info">Email: info@ngatipuaotearoa.org</p>
+                    <p class="contact-info">Phone: +64 9 123 4567</p>
+                    <div class="social-media">
+                        <a href="#" class="social-link" aria-label="Facebook">Facebook</a>
+                        <a href="#" class="social-link" aria-label="Instagram">Instagram</a>
+                        <a href="#" class="social-link" aria-label="Twitter">Twitter</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p class="copyright">&copy; 2025 Nga Tipu Aotearoa Nature. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
